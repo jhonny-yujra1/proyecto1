@@ -1,0 +1,69 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #f8f9fa !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Contenido principal */
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    margin-top: 10px;
+}
+
+.container .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.container .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
